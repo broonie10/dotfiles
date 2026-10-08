@@ -162,6 +162,13 @@ rm ComicShannsMono.zip
 # Setup config from: https://github.com/EngrArsalanPervez/alacritty
 ```
 
+
+## Kitty
+
+```bash
+# Setup config from: https://github.com/EngrArsalanPervez/kitty
+```
+
 ## Starship
 
 ```bash
@@ -226,6 +233,29 @@ lang.sql
 lang.toml
 lang.yaml
 ```
+
+## Lazyvim ColorScheme
+
+```bash
+# nvim ~/.config/nvim/lua/plugins/transparency.lua
+
+return {
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "cyberdream",
+    },
+  },
+
+  {
+    "scottmckendry/cyberdream.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
+}
+```
+
 
 ## Grub: IOMMU / Hugepages (256GB on each socket)
 
