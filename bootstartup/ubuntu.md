@@ -170,6 +170,19 @@ echo 'eval "$(starship init bash)"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
+
+## AutoCompletion
+
+```bash
+sudo apt install bash-completion
+mkdir -p ~/.local/share/blesh
+curl -L https://github.com/akinomyoga/ble.sh/releases/download/nightly/ble-nightly.tar.xz | tar xJf - -C ~/.local/share/blesh --strip-components=1
+echo '[[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh' >> ~/.bashrc
+source ~/.bashrc
+ble-update
+# ble-detach
+```
+
 # Lazyvim
 
 ```
