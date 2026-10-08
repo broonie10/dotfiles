@@ -162,6 +162,14 @@ rm ComicShannsMono.zip
 # Setup config from: https://github.com/EngrArsalanPervez/alacritty
 ```
 
+## Starship
+
+```bash
+curl -sS https://starship.rs/install.sh | sh
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
+source ~/.bashrc
+```
+
 # Lazyvim
 
 ```
